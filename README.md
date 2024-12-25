@@ -1,6 +1,6 @@
 # Project Setup
 Just Follow the Official Tauri Decumentation. its pretty Clarified there
-Start from
+### Start from
 1. Prerequisites : https://v2.tauri.app/start/prerequisites/#linux
 
 # Warning
