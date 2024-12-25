@@ -1,4 +1,12 @@
-## Build Instructions (From Debian Linux)
+# Project Setup
+Just Follow the Official Tauri Decumentation. its pretty Clearifies there
+Start from
+1. Prerequisites : https://v2.tauri.app/start/prerequisites/#linux
+
+# Warning
+The all set and ready Codebase will sit around `9 GB` in a local Filesystem 
+
+# Build Instructions (From Debian Linux)
 ### Android
 ```shell
 npm run tauri android build -- --apk
