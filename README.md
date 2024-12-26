@@ -4,7 +4,9 @@ Just Follow the Official Tauri Decumentation. its pretty Clarified there
 1. Prerequisites : https://v2.tauri.app/start/prerequisites/#linux
 
 # Warning
-The all set and ready Codebase will sit around `9 GB` in a local Filesystem 
+- The all set and ready Codebase will sit around `9 GB` in a local Filesystem 
+- it took around `5 GB` of RAM for the first Compile for Android
+- it tool around `18 mins` for the first Compile for Android
 
 # Build Instructions (From Debian Linux)
 ### Android
