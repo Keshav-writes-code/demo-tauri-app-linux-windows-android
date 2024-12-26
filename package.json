@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-    "tauri": "tauri"
+    "tauri": "tauri",
+    "build_all": "npm run tauri android build -- --apk && npm run tauri build -- --runner cargo-xwin --target x86_64-pc-windows-msvc && npm run tauri build && npm run  move_bundle",
+    "move_bundle": "rm -rf bundles/* && mkdir -p bundles/android bundles/windows bundles/linux && cp src-tauri/gen/android/app/build/outputs/apk/universal/release/app-universal-release.apk bundles/android && cp src-tauri/target/x86_64-pc-windows-msvc/release/bundle/nsis/tauri-app_0.1.0_x64-setup.exe bundles/windows && cp -r src-tauri/target/release/bundle/* bundles/linux/"
   },
   "license": "MIT",
   "dependencies": {

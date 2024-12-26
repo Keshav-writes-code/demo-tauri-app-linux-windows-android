@@ -9,6 +9,13 @@ Just Follow the Official Tauri Decumentation. its pretty Clarified there
 - it tool around `18 mins` for the first Compile for Android
 
 # Build Instructions (From Debian Linux)
+## Automatic
+Just run
+```shell
+npm run build_all
+```
+The bundles will appear in the `./bundles` Directory
+## Mannual
 ### Android
 ```shell
 npm run tauri android build -- --apk
